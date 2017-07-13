@@ -3,7 +3,7 @@ Modulable menu for text selection in React
 
 ## Installation
 
-`npm --save react-selected-text-menu`
+`npm install --save react-selected-text-menu`
 
 ## Introduction
 Search words or expressions directly on your favorite website.
