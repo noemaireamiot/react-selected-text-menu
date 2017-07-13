@@ -6,9 +6,9 @@ Modulable menu for text selection in React
 `npm --save react-selected-text-menu`
 
 ## Introduction
+Search words or expressions directly on your favorite website.
 
 ![](resources/reactSelectedText.gif)
-
 ## How it works
 
 ```jsx
@@ -37,7 +37,9 @@ npm start
 - [x] Google
 - [x] Wikipedia
 - [x] Copy to clipboard
+- [ ] GitHub
+- [ ] Yahoo
+- [ ] Bing
 - [ ] Pinterest
 - [ ] Amazon
-- [ ] Twitter
 - [ ] Many others...
