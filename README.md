@@ -7,6 +7,8 @@ Modulable menu for text selection in React
 
 ## Introduction
 
+![](resources/reactSelectedText.gif)
+
 ## Usage
 
 ```jsx
