@@ -42,4 +42,7 @@ npm start
 - [ ] Bing
 - [ ] Pinterest
 - [ ] Amazon
+- [ ] Maps
+- [ ] Waze
+- [ ] Yelp
 - [ ] Many others...
