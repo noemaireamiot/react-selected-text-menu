@@ -6,7 +6,7 @@ Modulable menu for text selection in React.
 `npm install --save react-selected-text-menu`
 
 ## Introduction
-Search words or expressions directly on your favorite website.
+Search words or expressions that you selected directly on your favorite website.
 
 ![](resources/reactSelectedText.gif)
 ## How it works
@@ -18,22 +18,9 @@ import SelectedText from 'react-selected-text-menu';
   Lorem ipsum dolor sit amet
 </SelectedText>
 ```
-`items` props is a string array which can have (at this time) :
-  - `google`
-  - `wikipedia`
-  - `clippy`
-  - `github`
-  - `amazon`
-  - `yahoo`
-  - `pinterest`
-  - `youtube`
-  - `lastfm`
-  - `maps`
-  - `yelp`
-  - `tripadvisor`
-  - `soundcloud`
-  - `reddit`
-  
+You can choose modules with the `items` prop.</br></br>
+Example :</br></br>
+`items=['google', 'wikipedia', 'clippy', 'github', 'amazon', 'yahoo, 'pinterest', 'youtube', 'lastfm', 'maps', 'yelp', 'tripadvisor', 'soundcloud', 'reddit']`</br></br>
   ![](resources/items.png)
 
 ## Try the demo
