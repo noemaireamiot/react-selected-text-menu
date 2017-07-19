@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {FaGoogle, FaTwitter, FaFacebook, FaWikipediaW} from 'react-icons/lib/fa';
+import {FaGoogle, FaTwitter, FaFacebook, FaWikipediaW, FaGithub, FaAmazon, FaYahoo, FaPinterestP, FaYoutubeSquare, FaLastfm, FaMapMarker, FaYelp, FaTripadvisor, FaSoundcloud, FaRedditAlien} from 'react-icons/lib/fa';
 import {GoClippy} from 'react-icons/lib/go';
 
 
@@ -64,6 +64,39 @@ class SelectedMenu extends Component {
                   case 'wikipedia':
                     return <a key={i} href={'https://en.wikipedia.org/wiki/' + this.state.selectedText} target='_blank'><FaWikipediaW color="white"/></a>;
                     break;
+                  case 'github':
+                    return <a key={i} href={'https://github.com/search?utf8=%E2%9C%93&q=' + this.state.selectedText} target='_blank'><FaGithub color="white"/></a>;
+                    break;
+                  case 'amazon':
+                    return <a key={i} href={'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=' + this.state.selectedText} target='_blank'><FaAmazon color="white"/></a>;
+                    break;
+                  case 'yahoo':
+                    return <a key={i} href={'https://search.yahoo.com/search;_ylt=A0oG7l7PeB5P3G0AKASl87UF?p=' + this.state.selectedText} target='_blank'><FaYahoo color="white"/></a>;
+                    break;
+                  case 'pinterest':
+                    return <a key={i} href={'https://pinterest.com/search/pins/?q=' + this.state.selectedText} target='_blank'><FaPinterestP color="white"/></a>;
+                    break;
+                  case 'youtube':
+                    return <a key={i} href={'https://www.youtube.com/results?search_query=' + this.state.selectedText} target='_blank'><FaYoutubeSquare color="white"/></a>;
+                    break;
+                  case 'lastfm':
+                    return <a key={i} href={'https://www.last.fm/fr/search?q=' + this.state.selectedText} target='_blank'><FaLastfm color="white"/></a>;
+                    break;
+                  case 'maps':
+                    return <a key={i} href={'https://www.google.fr/maps/search/' + this.state.selectedText} target='_blank'><FaMapMarker color="white"/></a>;
+                    break;
+                  case 'yelp':
+                    return <a key={i} href={'https://www.yelp.com/search?find_desc=' + this.state.selectedText} target='_blank'><FaYelp color="white"/></a>;
+                    break;
+                  case 'tripadvisor':
+                    return <a key={i} href={'https://www.tripadvisor.com/Search?q=' + this.state.selectedText} target='_blank'><FaTripadvisor color="white"/></a>;
+                    break;
+                  case 'soundcloud':
+                    return <a key={i} href={'https://soundcloud.com/search?q=' + this.state.selectedText} target='_blank'><FaSoundcloud color="white"/></a>;
+                    break;
+                  case 'reddit':
+                    return <a key={i} href={'https://www.reddit.com/search?q=' + this.state.selectedText} target='_blank'><FaRedditAlien color="white"/></a>;
+                    break;
                   case 'clippy':
                     return <a key={i} onClick={this.copyToClipboard()} style={{cursor: 'pointer'}}><GoClippy color="white"/></a>;
                     break;
@@ -85,7 +118,7 @@ class SelectedMenu extends Component {
          let s = document.getSelection();
          let r = s.getRangeAt(0);
          let p = r.getBoundingClientRect();
-         if (p.left != p.right) // change mouseup of event in mousedown maybe
+         if (p.left != p.right)
          {
            let widthMenu = 40 * this.state.items.length;
            let middle = (p.right - p.left) / 2;
