@@ -56,11 +56,10 @@ npm start
 - [x] Amazon
 - [x] Maps
 - [x] Yelp
-- [x] youtube
-- [x] lastfm
-- [x] tripadvisor
-- [x] soundcloud
-- [x] reddit
-
+- [x] Youtube
+- [x] Lastfm
+- [x] Tripadvisor
+- [x] Soundcloud
+- [x] Reddit
 - [ ] Bing
 - [ ] Many others...
