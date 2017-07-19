@@ -1,3 +1,3 @@
-import SelectedMenu from './SelectedMenu'
+import SelectedMenu from './SelectedMenu';
 
-export default SelectedMenu
+export default SelectedMenu;

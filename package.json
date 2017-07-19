@@ -19,12 +19,20 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "prop-types": "^15.5.10",
     "react-icons": "^2.2.5"
   },
   "peerDependencies": {
     "react": "15.x"
   },
   "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
     "nwb": "0.18.x",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
