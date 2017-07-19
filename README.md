@@ -1,5 +1,5 @@
 # react-selected-text-menu
-Modulable menu for text selection in React
+Modulable menu for text selection in React.
 
 ## Installation
 
@@ -22,6 +22,19 @@ import SelectedText from 'react-selected-text-menu';
   - `google`
   - `wikipedia`
   - `clippy`
+  - `github`
+  - `amazon`
+  - `yahoo`
+  - `pinterest`
+  - `youtube`
+  - `lastfm`
+  - `maps`
+  - `yelp`
+  - `tripadvisor`
+  - `soundcloud`
+  - `reddit`
+  
+  ![](resources/items.png)
 
 ## Try the demo
 
@@ -37,12 +50,17 @@ npm start
 - [x] Google
 - [x] Wikipedia
 - [x] Copy to clipboard
-- [ ] GitHub
-- [ ] Yahoo
+- [x] GitHub
+- [x] Yahoo
+- [x] Pinterest
+- [x] Amazon
+- [x] Maps
+- [x] Yelp
+- [x] youtube
+- [x] lastfm
+- [x] tripadvisor
+- [x] soundcloud
+- [x] reddit
+
 - [ ] Bing
-- [ ] Pinterest
-- [ ] Amazon
-- [ ] Maps
-- [ ] Waze
-- [ ] Yelp
 - [ ] Many others...
