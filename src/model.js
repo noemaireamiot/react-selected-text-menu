@@ -49,7 +49,7 @@ export default {
     icon: FaLastfm({ color: 'white' }),
   },
   maps: {
-    link: 'https://www.google.fr/maps/search/',
+    link: 'https://www.google.com/maps/search/',
     icon: FaMapMarker({ color: 'white' }),
   },
   yelp: {
