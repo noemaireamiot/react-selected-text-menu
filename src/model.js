@@ -1,11 +1,3 @@
-/** *************************************
-** O-rizon development
-** Created by Bastien Cecere
-** 19/07/2017 - 20:28
-** model.js
-** 2017 - All rights reserved
-***************************************/
-
 import { GoClippy } from 'react-icons/lib/go';
 import {
   FaGoogle,
